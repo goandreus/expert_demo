@@ -1,6 +1,22 @@
-# demo
+# Expert demo
 
-A new Flutter project.
+Inplementar la vista de registro en el proyecto,
+usando el paquete Dio,
+
+https://pub.dev/packages/dio
+
+
+https://validation.cristhoper.dev/auth/register
+
+
+{
+'mail': 'mail@example.com',
+'password': '111111',
+'name': 'example'
+}
+
+implementar  GOOD!
+
 
 ## Getting Started
 
