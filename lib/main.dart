@@ -1,4 +1,4 @@
-import 'package:demo/pages/home_screen.dart';
+import 'package:demo/pages/home_page.dart';
 import 'package:demo/pages/splash_screen.dart';
 import 'package:demo/pages/student/pages/login_student.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       ),
       home: SplashScreen(),
       routes: {
-        'home' : (_) => HomeScreen(),
+        'home' : (_) => HomePage(),
         'loginStudent' : (_) => LoginStudent()
       },
     );
