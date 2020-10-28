@@ -1,6 +1,7 @@
 import 'package:demo/pages/expert/pages/login_expert.dart';
 import 'package:demo/pages/home_page.dart';
 import 'package:demo/pages/splash_screen.dart';
+import 'package:demo/pages/student/pages/home_expert.dart';
 import 'package:demo/pages/student/pages/login_student.dart';
 import 'package:flutter/material.dart';
 
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
       routes: {
         'home' : (_) => HomePage(),
         'LoginStudentPage' : (_) => LoginStudent(),
-        'LoginExpertPage' : (_) => LoginExpert()
+        'LoginExpertPage' : (_) => LoginExpert(),
+        'HomeExpert': (_) => HomeExpert(),
       },
     );
   }
