@@ -18,6 +18,17 @@ class TokenManager {
     if(_token == null){
       _token = await storage.read(key: _key);
     }
+    return _token;
+  }
+
+  Future setToken(String token) async {
+    _token = token;
+    await storage.write(key: _key, value: token);
+  }
+
+  Future cleanToken() async {
+    _token = null;
+    await storage.delete(key: _key);
   }
 
   

@@ -1,3 +1,4 @@
+import 'package:demo/pages/expert/pages/login_expert.dart';
 import 'package:demo/pages/home_page.dart';
 import 'package:demo/pages/splash_screen.dart';
 import 'package:demo/pages/student/pages/login_student.dart';
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
       home: SplashScreen(),
       routes: {
         'home' : (_) => HomePage(),
-        'loginStudent' : (_) => LoginStudent()
+        'LoginStudentPage' : (_) => LoginStudent(),
+        'LoginExpertPage' : (_) => LoginExpert()
       },
     );
   }

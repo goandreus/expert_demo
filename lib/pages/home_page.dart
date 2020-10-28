@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
           width: double.infinity,
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('assets/back.jpeg'),
+              image: AssetImage('assets/back.jpg'),
               fit: BoxFit.cover,
             )
           ),
@@ -24,6 +24,7 @@ class HomePage extends StatelessWidget {
                  Navigator.pushNamed(context, 'LoginStudentPage');
                },
                child: Student()),
+               SizedBox(height: 20),
             // SizedBox(height: responsive.hp(10.0),),
              InkWell(
                onTap: (){
@@ -46,6 +47,8 @@ class Student extends StatelessWidget {
     //final Responsive responsive = Responsive.of(context);
     return Container(
       alignment: Alignment.center,
+      height: 40,
+      width: 200,
      // height: responsive.hp(15),
      // width: responsive.wp(60),
       decoration: BoxDecoration(
@@ -65,6 +68,8 @@ class Expert extends StatelessWidget {
    // final Responsive responsive = Responsive.of(context);
     return Container(
       alignment: Alignment.center,
+      height: 40,
+      width: 200,
     //  height: responsive.hp(15),
     //  width: responsive.wp(60),
       decoration: BoxDecoration(
