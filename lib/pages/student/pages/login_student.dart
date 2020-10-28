@@ -29,7 +29,7 @@ class Logo extends StatelessWidget {
       height: 200,
       width: double.infinity,
       child: Image(
-        image: AssetImage('assets/estudiante.png')
+        image: AssetImage('assets/programmer.png')
       ),
     );
   }
